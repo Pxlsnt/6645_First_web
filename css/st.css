@@ -1,0 +1,31 @@
+header {
+}
+.footer {
+  background-color: rgb(233, 132, 17);
+  height: 100px;
+}
+.container {
+  background-color: rgb(66, 48, 117);
+}
+.logo_menu {
+  background-color: seagreen;
+  display: flex;
+}
+.menu ul {
+  background-color: rgb(139, 46, 102);
+  display: flex;
+  list-style-type: none;
+  justify-content: space-between;
+}
+.btn {
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+.btn-primary {
+  background-color: rgb(5, 148, 251);
+  color: white;
+  padding: 10px 20px;
+  border: ;
+}
