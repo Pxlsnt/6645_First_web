@@ -91,11 +91,12 @@ a:hover {
         </div>
         <div class="right-panel">
             <h2>Login</h2>
-            <form action="" id="loginForm" method="">
+            <form id="loginForm" method="post">
                 <label for="">Username:</label>
-                <input type="text" placeholder="ชื่อผู้ใช้" required>
+                <input type="text" placeholder="ชื่อผู้ใช้" id="username" required>
+
                 <label for="">Password:</label>
-                <input type="password" placeholder="รหัสผ่าน" required>
+                <input type="password" placeholder="รหัสผ่าน" id="password" required>
                 <button type="submit">Login</button>
             </form>
             <p><a href="#" class="forgot">Forgot Password?</a></p>
@@ -123,7 +124,7 @@ a:hover {
             // ตรวจสอบว่าข้อมูลที่ป้อนตรงกับค่าที่กำหนดไว้หรือไม่ (username: "admin", password: "1234")
             if (username === "admin" && password === "1111") {
                 //alert("เข้าสู่ระบบสำเร็จ!"); // แจ้งเตือนผู้ใช้ว่าล็อกอินสำเร็จ
-                window.location.href = "W13_01_webresponsive"; // เปลี่ยนหน้าไปยังเป้าหมาย"
+                window.location.href = "W13_01_webresponsive.html"; // เปลี่ยนหน้าไปยังเป้าหมาย"
             } else {
                 errorMsg.textContent = "Username หรือ Password ไม่ถูกต้อง"; // แสดงข้อความ error เมื่อป้อนข้อมูลผิด
             }
